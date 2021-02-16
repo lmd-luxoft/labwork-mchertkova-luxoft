@@ -58,6 +58,6 @@ int main(int argc, char *argv[])
     printTreeInfo(parent);
 
     // TODO: delete here what need only
-
+    parent->deleteLater();
     return a.exec();
 }
