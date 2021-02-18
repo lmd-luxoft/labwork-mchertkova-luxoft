@@ -34,7 +34,6 @@ for(auto acc:accounts){
     accounts[0]->withdraw(100); // you must be notified about account changes and that total balance is changed
     accounts[2]->withdraw(200); // you must be notified about account changes and that total balance is changed
 accounts[1]->withdraw(200);
-for(auto acc:accounts){
-    acc->deleteLater();}
+
     return a.exec();
 }
